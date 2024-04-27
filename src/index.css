@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Medium" , sans-serif;
+  color: white;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+::selection{
+  color: blue;
+}
+.BING{
+  background: linear-gradient( #300101 0%, #000000 50%);
+
+}
+
+@media screen and (max-width: 1000px) {
+  .Lamme{
+    margin-top: 100rem;
+  }
+}
